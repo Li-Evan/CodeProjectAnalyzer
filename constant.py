@@ -1,0 +1,22 @@
+# !/usr/bin/python
+# -*- coding:UTF-8 -*-
+
+import os
+
+
+CONTEXT_LENGTH = 300*1000
+
+ZHIPU_API_POOL_SIZE = 5
+LLM_NAME = 'openai'
+
+ZHIPU_API_LIST = ["YOUR ZHIPU API KEY 1","YOUR ZHIPU API KEY2","..."]
+# ZHIPU_API = "YOUR ZHIPU API KEY"
+# ZHIPU_MODEL = "glm-4-0520"
+ZHIPU_MODEL = "GLM-4-Air"
+
+OPENAI_API = "YOUR OPENAI API KEY"
+OPENAI_BASE_URL = "YOUR OPENAI BASE URL"
+OPENAI_MODEL = "gpt-4o-mini"
+# OPENAI_EMBEDDING_MODEL = "text-embedding-ada-002"
+
+CLAUDE_MODEL = "claude-3-5-sonnet-20240620"
